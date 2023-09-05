@@ -66,9 +66,9 @@ nav ul li {
     color: rgb(241, 115, 12);
 }
 .bob{
-    height: 450px;
-    width: 450px;
-    background-image: url('./images/image-shoe-1.jpg');
+    height: 400px;
+    width: 400px;
+    background-image: url('image-product-1.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

@@ -5,21 +5,21 @@ const img3 = document.querySelector('.shoe3');
 const img4 = document.querySelector('.shoe4');
 
 img1.addEventListener('click', ()=>{
-    main.style.backgroundImage = "url('./images/image-shoe-1.jpg')"
+    main.style.backgroundImage = "url('./image-product-1.jpg')"
 
 });
 
 img2.addEventListener('click', ()=>{
-    main.style.backgroundImage = "url('./images/image-shoe1.jpg')"
+    main.style.backgroundImage = "url('./image-product-2.jpg')"
 
 });
 
 img3.addEventListener('click', ()=>{
-    main.style.backgroundImage = "url('./images/image-shoe2-4.jpg')"
+    main.style.backgroundImage = "url('./image-product-3.jpg')"
 
 });
 
 img4.addEventListener('click', ()=>{
-    main.style.backgroundImage = "url('./images/image-2shoe.jpg')"
+    main.style.backgroundImage = "url('./image-product-4.jpg')"
 
 });
