@@ -1,0 +1,76 @@
+body {
+    background-color: whitesmoke;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+nav ul {
+    list-style: none;
+    font-size: x-large;
+    font-weight: 700;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-flex;
+}
+nav ul li {
+    margin: 0 10px;
+}
+.headpart {
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+}
+.art {
+    display: none;
+}
+.man {
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    padding-top: 10px;
+    width: 400px;
+    justify-content: space-around;
+}
+.container img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main {
+    display: flex;
+}
+.firstpart {
+    width: 1350px;
+    padding-left: 100px;
+}
+.secondpart {
+    padding-right: 200px;
+    padding-top: 130px;
+    width: 60%;
+}
+
+.text {
+    color: rgb(241, 115, 12);
+}
+.bob{
+    height: 450px;
+    width: 450px;
+    background-image: url('./images/image-shoe-1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
