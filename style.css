@@ -61,7 +61,6 @@ nav ul li {
     padding-top: 130px;
     width: 60%;
 }
-
 .text {
     color: rgb(241, 115, 12);
 }
@@ -72,5 +71,9 @@ nav ul li {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(241, 115, 12);
     border-radius: 10px;
 }
